@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.left {
+  float: left !important;
+}
+
+.filter-option {
+  width: inherit !important;
+  margin-right: 0.5rem;
+}
+
+#list-container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: max-content;
+  padding: 1rem;
+}
+
+#list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 0.5rem;
+  border-bottom: 1px solid;
+  height: 2rem;
+}
+
+.todo-checkbox {
+  float: left;
+  display: block !important;
+  width: inherit !important;
+}
+
+#todo-text{
+  float: left;
+  margin: 0;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.finished {
+  text-decoration-line: line-through;
+  color: #d9d9d9;
+}
+
+#remove-icon {
+  float: right;
+  cursor: pointer;
+}
+
+.todos-left{
+  margin: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
